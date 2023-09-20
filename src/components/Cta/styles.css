@@ -1,0 +1,47 @@
+.cta-container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-container h1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 58px;
+    font-weight: 700;
+    color: rgb(23, 32, 75);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.cta-container p {
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(100, 104, 122);
+    margin-top: 10px;
+}
+
+.cta-container button {
+    background-color: rgb(57, 214, 180);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;font-weight: 700;
+    height: 40px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    transition: .3s;
+}
+
+.cta-container button:hover {
+    background-color: rgb(88, 185, 185);
+}
